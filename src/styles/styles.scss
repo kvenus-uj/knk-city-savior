@@ -1,0 +1,55 @@
+
+.home_hero{
+  background: url("/static/images/home_hero_bg.png") no-repeat;
+  background-size: cover;
+  // mix-blend-mode: multiply;
+}
+
+.horror-castle-table{
+  // @apply w-full h-96;
+  background: radial-gradient(50.08% 49.91% at 50% 50%, #1D1D1B 46.65%, #181817 66.03%, #0A0A0A 88.29%, #000000 100%);
+}
+
+
+.horror_active_section{
+
+}
+
+.knk_footer{
+  background: url("/static/images/footer_bg.svg");
+}
+
+
+.ant-modal-close-x{
+  @apply flex items-center justify-center;
+}
+
+.ant-modal-title{
+  @apply text-center text-xl uppercase font-bold text-white; 
+}
+
+.custom-modal{
+  @apply bg-gray-dark;
+  .ant-modal-content, .ant-modal-header{
+    @apply bg-transparent
+  }
+}
+
+.custom-modal-dark{
+  @apply bg-black shadow shadow-gray-800/40;
+  .ant-modal-content, .ant-modal-header{
+    @apply bg-transparent border-none;
+  }
+}
+
+.win-modal{
+  .ant-modal-header{
+    @apply border-b border-[#1EC790]
+  }
+}
+
+.lose-modal{
+  .ant-modal-header{
+    @apply border-b border-[#C50000]
+  }
+}
